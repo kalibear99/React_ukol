@@ -8,7 +8,7 @@ export default function HomePagee() {
         <div className="HomePage">
                 <div className="HomeText">
                     <div className="DoryInfo"> 
-                        <p>Grafi & Web developer</p>
+                        <p>Grafik & Web developer</p>
                     </div>
                     <div className="nadpis">
                         <h2>Ahoj, jsem</h2>
