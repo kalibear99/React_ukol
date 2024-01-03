@@ -19,21 +19,21 @@ export default function AboutMe() {
                     <div className="circle black">
                         <div className="inner-circle green"></div>
                     </div>
-                    <p className="phone">123 456 789</p>
+                        <p className="text">Darien Kalist</p>
                 </div>
 
                 <div className="about">
                     <div className="circle black">
                         <div className="inner-circle green"></div>
                     </div>
-                    <p className="email">dory@gmail.com</p>
+                        <p className="email">dory@gmail.com</p>
                 </div>
 
                 <div className="about">
                     <div className="circle black">
                         <div className="inner-circle green"></div>
                     </div>
-                    <p className="text">Darien Kalist</p>
+                        <p className="phone">123 456 789</p>
                 </div>
             </div>
             

@@ -51,16 +51,19 @@ body {
     transform: translate(-50%, -50%);
 }
   
-.text {
+.text, .email, .phone {
     color: #FFF;
 }
 
-.email { 
-    color: #FFF;
+.Email{
+    margin-bottom: 55px;
 }
 
-.phone{
+.titleName, .titleEmail, .titlePhone {
     color: #FFF;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+  
 }
 
 .about{
