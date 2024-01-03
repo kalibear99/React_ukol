@@ -1,5 +1,4 @@
 import "./home_page.css"
-import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from 'react-icons/fa';
 import CountUp from 'react-countup';
 
 export default function HomePagee() {
@@ -16,21 +15,6 @@ export default function HomePagee() {
                         <h1>Darien Kalist</h1>
                     </div>
                 </div>
-                    
-                    {/* <div className="icons"> 
-                        <a className="icons" href="https://www.facebook.com/tvoje-facebook-stranka" target="_blank" rel="noopener noreferrer">
-                            <FaFacebook size={25} />
-                        </a>
-                        <a className="icons" href="https://www.instagram.com/tvoje-instagram-stranka" target="_blank" rel="noopener noreferrer">
-                            <FaInstagram size={25} />
-                        </a>
-                        <a className="icons" href="https://www.twitter.com/tvoje-twitter-stranka" target="_blank" rel="noopener noreferrer">
-                            <FaTwitter size={25} />
-                        </a>
-                        <a className="icons" href="https://github.com//tvoje-Github-stranka" target="_blank" rel="noopener noreferrer">
-                            <FaGithub size={25} />
-                        </a>
-                    </div> */}
                     
                     <div className="button">
                         <button className="green-button">Kontaktovat</button>
