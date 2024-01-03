@@ -15,16 +15,25 @@ export default function AboutMe() {
             </div>
 
             <div className="container">
-                <div className="circle black">
-                    <div className="inner-circle green"></div>
-                    <p className="text">Darien Kalist</p>
+                <div className="about">
+                    <div className="circle black">
+                        <div className="inner-circle green"></div>
+                    </div>
+                    <p className="phone">123 456 789</p>
                 </div>
-                <div className="circle black">
-                    <div className="inner-circle green"></div>
+
+                <div className="about">
+                    <div className="circle black">
+                        <div className="inner-circle green"></div>
+                    </div>
                     <p className="email">dory@gmail.com</p>
                 </div>
-                <div className="circle black">
-                    <div className="inner-circle green"></div>
+
+                <div className="about">
+                    <div className="circle black">
+                        <div className="inner-circle green"></div>
+                    </div>
+                    <p className="text">Darien Kalist</p>
                 </div>
             </div>
             

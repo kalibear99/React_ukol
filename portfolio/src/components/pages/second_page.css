@@ -24,9 +24,9 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 40vh;
-    margin-left: 450px;
-    margin-right: 450px;
+    height: 35vh;
+    padding-left: 30%;
+    padding-right: 30%;
   }
   
 .circle {
@@ -35,6 +35,8 @@ body {
     background-color: #212121;
     border-radius: 50%;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
   
@@ -51,13 +53,19 @@ body {
   
 .text {
     color: #FFF;
-    margin-top: 70px;
-    text-align: center;  
 }
 
 .email { 
     color: #FFF;
-    margin-top: 70px;
-    text-align: center;  
-    margin-left: -32px;
+}
+
+.phone{
+    color: #FFF;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
