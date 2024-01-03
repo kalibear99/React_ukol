@@ -1,14 +1,17 @@
 
 import './App.css';
-import HomePage from './components/home_page/home_page';
+import HomePage from './components/pages/home_page';
 import Navbar from './components/navbar/navbar';
-
+import AboutMe from './components/pages/second_page';
+import Service from './components/pages/third_page';
 
 export default function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <HomePage></HomePage>     
+      <HomePage></HomePage>   
+      <AboutMe></AboutMe>
+      <Service></Service>
     </div>                      
   );
 }

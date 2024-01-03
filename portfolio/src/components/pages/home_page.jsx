@@ -1,7 +1,6 @@
 import "./home_page.css"
 import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from 'react-icons/fa';
 import CountUp from 'react-countup';
-import { introdata, socials } from '../my_data' 
 
 export default function HomePagee() {
     return (
