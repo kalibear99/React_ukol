@@ -78,10 +78,22 @@ input {
     background-color:transparent;
     border-bottom: 1px solid #4F4F4F;
     caret-color: #fff;
+    color: #fff;
 }
 
 textarea {
     background-color:transparent;
     border-bottom: 1px solid #4F4F4F;
     caret-color: #fff;
+    color: #fff;
+    font-size: 15px;
 }
+
+::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #fff;
+  }

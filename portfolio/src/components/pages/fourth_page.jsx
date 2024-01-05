@@ -14,6 +14,7 @@ export default function Form() {
               type="text"
               id="jmeno"
               name="jmeno"
+              placeholder="Adam"
               required
             />
           </div>
@@ -23,6 +24,7 @@ export default function Form() {
               type="text"
               id="prijmeni"
               name="prijmeni"
+              placeholder="Novák"
               required
             />
           </div>
@@ -34,6 +36,7 @@ export default function Form() {
             type="email"
             id="email"
             name="email"
+            placeholder="nazev@gmail.com"
             required
           />
         </div>
@@ -45,6 +48,7 @@ export default function Form() {
             name="zprava"
             rows="4"
             required
+            placeholder="Jak vám mohu pomoci ?"
           ></textarea>
         </div>
 
