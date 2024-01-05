@@ -6,6 +6,7 @@ import AboutMe from './components/pages/second_page';
 import Service from './components/pages/third_page';
 import Form from './components/pages/fourth_page';
 import Footer from './components/footer/footer';
+import Reference from './components/pages/fifth_page';
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <HomePage></HomePage>   
       <AboutMe></AboutMe>
       <Service></Service>
+      <Reference></Reference>
       <Form></Form>
       <Footer></Footer>
     </div>                      

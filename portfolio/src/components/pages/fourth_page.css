@@ -18,6 +18,11 @@ body {
     font-size: 25px;
     font-family: 'DM Sans', sans-serif; 
     margin-top: 200px;
+   margin-bottom: 30px;
+}
+
+.spanForm {
+    color: #4caf50;
 }
 
 .my-form {
@@ -87,13 +92,14 @@ textarea {
     caret-color: #fff;
     color: #fff;
     font-size: 15px;
+    resize: none;
 }
 
 ::placeholder {
     color: #fff;
-    opacity: 1; /* Firefox */
+    opacity: 1; 
   }
   
-  ::-ms-input-placeholder { /* Edge 12 -18 */
+  ::-ms-input-placeholder { 
     color: #fff;
   }

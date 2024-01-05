@@ -36,7 +36,7 @@ export default function HomePagee() {
                     </div>
 
                     <div className="obrazek">
-                        <img className="obrazek_muz" src="/Muž.png" alt="muž" />
+                        <img className="obrazek_muz" src="/dory.png" alt="muž" />
                     </div>
                     
         </div>

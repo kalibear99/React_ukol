@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="containerFooter">
             <div className="LogoFooter">
                 <a href="#">D<span className="span">K</span></a>
-                <p className="InfoFooter">© 2024 darienkalist s.r.o</p>
+                <p className="InfoFooter">© 2024 darienkalist</p>
             </div>
             <div className="SocialFooter">
                 <h1 className="TitleSocial">Sleduj mě</h1>

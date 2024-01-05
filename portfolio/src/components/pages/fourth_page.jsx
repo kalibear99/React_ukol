@@ -4,39 +4,37 @@ export default function Form() {
     return (
     <div id="form">
       <div className="titleForm">
-        <h1>Kontaktovat</h1>
+        <h1>Chcete se <span className="spanForm">mnou</span> spolupracovat?</h1>
       </div>
       <form className="my-form">
         <div className="name-section">
           <div className="name-input">
-            <label>Jméno:</label>
+            <label>Jméno *</label>
             <input
               type="text"
               id="jmeno"
               name="jmeno"
-              placeholder="Adam"
               required
             />
           </div>
           <div className="name-input">
-            <label>Příjmení:</label>
+            <label>Příjmení *</label>
             <input
               type="text"
               id="prijmeni"
               name="prijmeni"
-              placeholder="Novák"
               required
             />
           </div>
         </div>
         
         <div className="email-section">
-          <label>Email:</label>
+          <label>Email *</label>
           <input
             type="email"
             id="email"
             name="email"
-            placeholder="nazev@gmail.com"
+            placeholder="@"
             required
           />
         </div>
@@ -48,7 +46,7 @@ export default function Form() {
             name="zprava"
             rows="4"
             required
-            placeholder="Jak vám mohu pomoci ?"
+            placeholder="Jak vám mohu pomoci?"
           ></textarea>
         </div>
 

@@ -11,11 +11,14 @@ export default function AboutMe() {
             </div>
 
             <div className="aboutme_info">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                <p>Ahoj, jmenuji se <span className="spanForm">Darien Kalist</span> a je mi 18 let. Momentálně studuji na <span className="spanForm">Střední škole Baltaci</span> ve Zlíně, kde se zaměřuji na zajímavý svět informatiky. Baví mě nejen digitální svět, ale také bojové sporty. Mimo školní život se věnuji <span className="spanForm">brazilskému jiu-jitsu</span>. Bojové sporty mi nejen <span className="spanForm">poskytují fyzickou sílu</span>, ale také mě učí disciplíně a strategii. Je to pro mě nejen sport, ale i forma <span className="spanForm"> sebepoznání a seberealizace</span>.</p>
             </div>
 
             <div className="container">
                 <div className="about">
+
+
+                    
                     <div className="circle black">
                         <div className="inner-circle green"></div>
                     </div>
