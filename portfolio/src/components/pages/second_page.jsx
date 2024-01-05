@@ -5,7 +5,7 @@ import 'animate.css';
 
 export default function AboutMe() {
     return (
-        <div>
+        <div id="aboutme">
             <div className="aboutme_nadpis">
                  <h1>O mně</h1>
             </div>

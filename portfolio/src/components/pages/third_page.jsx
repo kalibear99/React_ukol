@@ -2,7 +2,7 @@ import "./third_page.css"
 
 export default function Service() {
     return (
-        <div>
+        <div id="codelam">
              <div className="TitleService">
                 <h1>Co dělám</h1>
             </div>

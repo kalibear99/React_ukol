@@ -4,7 +4,9 @@ import HomePage from './components/pages/home_page';
 import Navbar from './components/navbar/navbar';
 import AboutMe from './components/pages/second_page';
 import Service from './components/pages/third_page';
+import Form from './components/pages/fourth_page';
 import Footer from './components/footer/footer';
+
 
 export default function App() {
   return (
@@ -13,6 +15,7 @@ export default function App() {
       <HomePage></HomePage>   
       <AboutMe></AboutMe>
       <Service></Service>
+      <Form></Form>
       <Footer></Footer>
     </div>                      
   );

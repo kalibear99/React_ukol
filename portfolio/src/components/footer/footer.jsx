@@ -3,6 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
     return (
+
         <div className="containerFooter">
             <div className="LogoFooter">
                 <a href="#">D<span className="span">K</span></a>

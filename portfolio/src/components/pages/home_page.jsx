@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 export default function HomePagee() {
     return (
-        <div className="HomePage">
+        <div id="homepage" className="HomePage">
                 <div className="HomeText">
                     <div className="DoryInfo"> 
                         <p>Grafik & Web developer</p>

@@ -1,5 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,400&family=Roboto:ital,wght@1,300&display=swap');
 
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+body {
+  background-color: #171717;
+}
+
+.HomeText,
+.DoryInfo,
+.nadpis,
+.jmeno,
+.HomeInfo,
+.green-button,
+.icons,
+.rating-container,
+.obrazek_muz {
+  animation: scaleIn 1s ease-out; 
+}
+
+
+
+@keyframes animateGradient {
+
+}
+
+
 body {
     background-color: #171717;
 }
@@ -96,7 +130,7 @@ body {
     justify-content: space-around;
     background-color: #212121;
     padding: 30px;
-    margin-top:  60px;
+    margin-top:  90px;
     margin-left: 75px;
     margin-right: 75px;
     text-align: center;
@@ -120,5 +154,7 @@ body {
     border: 2px solid #4F4F4F; 
   }
   .obrazek {
-    margin-top: -645px;
+    margin-top: -615px;
   }
+
+  

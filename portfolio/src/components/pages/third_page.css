@@ -1,3 +1,7 @@
+*{ scroll-behavior: smooth;
+    scroll-padding: 150px;
+    }
+
 body {
     background-color: #171717;
     margin: 0;
