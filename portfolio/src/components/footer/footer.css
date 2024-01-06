@@ -46,6 +46,7 @@
     font-family: 'DM Sans', sans-serif;
     margin-bottom: 10px; 
     text-align: center;
+   align-items: center;
 }
 
 .EmailFooter, .PhoneFooter, .InfoFooter {

@@ -1,3 +1,6 @@
+*{ scroll-behavior: smooth;
+    scroll-padding: 150px;
+    }
 
 .titleReference {
     text-align: center;
@@ -10,6 +13,14 @@
     color: #4caf50;
 }
 
+.loga {
+    display: flex;
+    justify-content: center;
+}
+
 .logoReference {
-    gap: 50px;
+    margin: 25px; 
+    height: 170px;
+    width: 170px;
+    margin-top: 120px;
 }
