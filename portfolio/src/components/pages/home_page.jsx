@@ -1,6 +1,7 @@
 import "./home_page.css"
 import CountUp from 'react-countup';
 
+
 export default function HomePagee() {
     return (
         <div id="homepage" className="HomePage">
