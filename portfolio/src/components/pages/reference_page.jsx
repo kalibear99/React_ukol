@@ -1,9 +1,9 @@
-import "./fifth_page.css"
+import "./reference_page.css"
 
 export default function Reference() {
     return (
             <div id="reference" class="landing-clients">
-                <h1 class="titleReference">Pracoval <span className="spanReference">jsme</span> například pro:</h1>
+                <h1 class="titleReference">Pracoval <span className="spanReference">jsem</span> například pro:</h1>
                 <div class="container">
                     <div class="loga">
                             <div>

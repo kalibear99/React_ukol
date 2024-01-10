@@ -1,4 +1,4 @@
-import "./third_page.css"
+import "./codelam_page.css"
 
 export default function Service() {
     return (

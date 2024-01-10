@@ -2,11 +2,11 @@
 import './App.css';
 import HomePage from './components/pages/home_page';
 import Navbar from './components/navbar/navbar';
-import AboutMe from './components/pages/second_page';
-import Service from './components/pages/third_page';
-import Form from './components/pages/fourth_page';
+import AboutMe from './components/pages/aboutme_page';
+import Service from './components/pages/codelam_page';
+import Form from './components/pages/kontakt_page';
 import Footer from './components/footer/footer';
-import Reference from './components/pages/fifth_page';
+import Reference from './components/pages/reference_page';
 
 
 export default function App() {

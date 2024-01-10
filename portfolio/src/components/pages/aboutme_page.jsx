@@ -1,4 +1,4 @@
-import "./second_page.css"
+import "./aboutme_page.css"
 import 'animate.css';
 
 

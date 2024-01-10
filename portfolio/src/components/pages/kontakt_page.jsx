@@ -1,4 +1,4 @@
-import "./fourth_page.css"
+import "./kontakt_page.css"
 
 export default function Form() {
     return (
