@@ -49,3 +49,11 @@ body {
     height: 40px;
     margin-right: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .containerService {
+        flex-direction: column;
+        height: 100%;
+
+    }
+}

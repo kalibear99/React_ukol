@@ -83,8 +83,7 @@ body {
     .container{
         flex-direction: column;
         margin-top: 70px;
+        justify-content: center;
 
-    }
-    .aboutme_info{
     }
 }
