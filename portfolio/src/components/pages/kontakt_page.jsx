@@ -1,10 +1,18 @@
 import "./kontakt_page.css"
+import {motion} from "framer-motion"
 
 export default function Form() {
     return (
     <div id="form">
       <div className="titleForm">
-        <h1>Chcete se <span className="spanForm">mnou</span> spolupracovat?</h1>
+        <motion.div
+         initial= {{scale: 1, opacity: 0, y: 70}}
+         whileInView={{opacity: 1, y: 0}}
+         transition={{duration: 0.5}}
+         viewport={{once: false}}
+        >
+          <h1>Chcete se <span className="spanForm">mnou</span> spolupracovat?</h1>
+        </motion.div>
       </div>
       <form className="my-form">
         <div className="name-section">

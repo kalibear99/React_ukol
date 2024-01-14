@@ -9,7 +9,7 @@ export default function AboutMe() {
 
         <div id="aboutme">
             <motion.div
-                initial= {{scale: 1, opacity: 0, y: 50}}
+                initial= {{scale: 1, opacity: 0, y: 70}}
                 whileInView={{opacity: 1, y: 0}}
                 transition={{duration: 0.5}}
                 viewport={{once: false}}
@@ -20,7 +20,7 @@ export default function AboutMe() {
             </motion.div>
 
             <motion.div 
-            initial= {{scale: 1, opacity: 0, y: 50}}
+            initial= {{scale: 1, opacity: 0, y: 70}}
             whileInView={{opacity: 1, y: 0}}
             transition={{duration: 0.5}}
             viewport={{once: false}}
