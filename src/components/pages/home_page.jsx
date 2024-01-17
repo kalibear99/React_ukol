@@ -18,7 +18,7 @@ export default function HomePagee() {
                 </div>
                     
                     <div className="button">
-                        <button className="green-button">Kontaktovat</button>
+                        <a href="#form" className="green-button">Kontaktovat</a>
                     </div>
 
                     <div className="rating-container">
