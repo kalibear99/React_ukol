@@ -75,10 +75,6 @@ body {
   }
 }
 
-p {
-  margin-top: 5px;
-}
-
 .nadpis {
     color: #FFFFFF;
     font-size: 30px;
@@ -91,7 +87,6 @@ p {
     font-family: 'DM Sans', sans-serif;
     font-size: 40px;
     margin-top: -50px;
-
 }
 
 .HomeInfo {
@@ -112,7 +107,7 @@ p {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease; 
-  }
+}
   
 .icons{
     display: flex;
