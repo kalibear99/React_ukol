@@ -19,6 +19,7 @@ body {
 
 .aboutme_info {
  text-align: justify;
+ display: flex;
  color: #FFF;
  margin-left: 400px;
  margin-right: 400px;
@@ -84,6 +85,12 @@ body {
         flex-direction: column;
         margin-top: 70px;
         justify-content: center;
+
+    }
+
+    .aboutme_info {
+        margin-left: 600px;
+        margin-right: 600px;
 
     }
 }
