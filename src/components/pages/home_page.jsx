@@ -5,6 +5,7 @@ import CountUp from 'react-countup';
 export default function HomePagee() {
     return (
         <div id="homepage" className="HomePage">
+            <div className="hero">
                 <div className="HomeText">
                     <div className="DoryInfo"> 
                         <p>Grafik & Web developer</p>
@@ -15,11 +16,18 @@ export default function HomePagee() {
                     <div className="jmeno">
                         <h1>Darien Kalist</h1>
                     </div>
-                </div>
-                    
+
                     <div className="button">
                         <a href="#form" className="green-button">Kontaktovat</a>
                     </div>
+                </div>
+
+                <div className="obrazek">
+                    <img className="obrazek_muz" src="/dory.png" alt="muž" />
+                </div>
+            </div>
+                    
+                    
 
                     <div className="rating-container">
                         <div className="rating-item">
@@ -36,10 +44,7 @@ export default function HomePagee() {
                         </div>
                     </div>
 
-                    <div className="obrazek">
-                        <img className="obrazek_muz" src="/dory.png" alt="muž" />
-                    </div>
-                    
+                   
         </div>
     );
 }
