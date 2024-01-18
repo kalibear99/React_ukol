@@ -51,23 +51,22 @@
     color: #fff;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
-    margin: 10px 0; /* Zvětšeno mezery pro mobilní zařízení */
+    margin: 10px 0; 
 }
 
-/* Media query pro mobilní zařízení */
 @media only screen and (max-width: 600px) {
     .containerFooter {
-        flex-direction: column; /* Změna směru flexboxu na sloupcový pro mobilní zařízení */
-        height: auto; /* Automatická výška podle obsahu */
-        padding: 10px; /* Úprava vnitřního odsazení pro mobilní zařízení podle potřeby */
-        text-align: center; /* Zarovnání na střed pro mobilní zařízení */
+        flex-direction: column; 
+        height: auto; 
+        padding: 10px; 
+        text-align: center;
     }
 
     .LogoFooter a {
-        margin: 10px 0; /* Zvětšeno mezery pro mobilní zařízení */
+        margin: 10px 0; 
     }
 
     .LogoFooter a, .span, .TitleSocial, .TitleKontakt, .EmailFooter, .PhoneFooter, .InfoFooter {
-        font-size: 18px; /* Úprava velikosti písma pro mobilní zařízení podle potřeby */
+        font-size: 18px;
     }
 }
