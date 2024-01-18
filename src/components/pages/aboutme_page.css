@@ -8,10 +8,6 @@ body {
     background-color: #171717;
 }
 
-.HomePage {
-    display: flex;
-    width: auto;
-}
 
 .aboutme_nadpis { 
     text-align: center;
@@ -93,25 +89,4 @@ body {
     }
 
     
-}
-
-@media only screen and (max-width: 800px) {
-    .aboutme_info {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-@media only screen and (min-width: 801px) and (max-width: 1200px) {
-    .aboutme_info {
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-}
-
-@media only screen and (min-width: 1201px) {
-    .aboutme_info {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
 }
