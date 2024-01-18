@@ -104,4 +104,10 @@ textarea {
     color: #fff;
   }
 
-  
+  @media only screen and (max-width: 600px) {
+    .titleForm {
+        font-size: 18px; /* Upravte velikost písma pro mobilní zařízení podle potřeby */
+        margin-top: 100px; /* Upravte horní okraj pro mobilní zařízení podle potřeby */
+        margin-bottom: 15px; /* Upravte dolní okraj pro mobilní zařízení podle potřeby */
+    }
+}
