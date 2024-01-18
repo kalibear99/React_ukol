@@ -12,7 +12,7 @@
 .LogoFooter a {
     text-decoration: none;
     color: #27AE60;
-    font-size: 40px;
+    font-size: 50px; /* Zvětšeno logo pro mobilní zařízení */
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     margin-left: 10px; 
@@ -32,7 +32,7 @@
     font-size: 14px;
 }
 
-.icons{
+.icons {
     width: 17px;
     height: 17px;
     margin: 0%;
@@ -51,7 +51,7 @@
     color: #fff;
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
-    margin: 5px 0; 
+    margin: 10px 0; /* Zvětšeno mezery pro mobilní zařízení */
 }
 
 /* Media query pro mobilní zařízení */
@@ -60,11 +60,14 @@
         flex-direction: column; /* Změna směru flexboxu na sloupcový pro mobilní zařízení */
         height: auto; /* Automatická výška podle obsahu */
         padding: 10px; /* Úprava vnitřního odsazení pro mobilní zařízení podle potřeby */
+        text-align: center; /* Zarovnání na střed pro mobilní zařízení */
+    }
+
+    .LogoFooter a {
+        margin: 10px 0; /* Zvětšeno mezery pro mobilní zařízení */
     }
 
     .LogoFooter a, .span, .TitleSocial, .TitleKontakt, .EmailFooter, .PhoneFooter, .InfoFooter {
         font-size: 18px; /* Úprava velikosti písma pro mobilní zařízení podle potřeby */
-        text-align: center; /* Úprava zarovnání textu pro mobilní zařízení podle potřeby */
-        margin: 5px 0; /* Úprava okrajů pro mobilní zařízení podle potřeby */
     }
 }
