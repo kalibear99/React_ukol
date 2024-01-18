@@ -1,4 +1,3 @@
-
 .containerFooter {
     display: flex;
     justify-content: space-around;
@@ -37,7 +36,6 @@
     width: 17px;
     height: 17px;
     margin: 0%;
-    
 }
 
 .TitleSocial, .TitleKontakt {
@@ -46,7 +44,7 @@
     font-family: 'DM Sans', sans-serif;
     margin-bottom: 10px; 
     text-align: center;
-   align-items: center;
+    align-items: center;
 }
 
 .EmailFooter, .PhoneFooter, .InfoFooter {
@@ -54,4 +52,19 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     margin: 5px 0; 
+}
+
+/* Media query pro mobilní zařízení */
+@media only screen and (max-width: 600px) {
+    .containerFooter {
+        flex-direction: column; /* Změna směru flexboxu na sloupcový pro mobilní zařízení */
+        height: auto; /* Automatická výška podle obsahu */
+        padding: 10px; /* Úprava vnitřního odsazení pro mobilní zařízení podle potřeby */
+    }
+
+    .LogoFooter a, .span, .TitleSocial, .TitleKontakt, .EmailFooter, .PhoneFooter, .InfoFooter {
+        font-size: 18px; /* Úprava velikosti písma pro mobilní zařízení podle potřeby */
+        text-align: center; /* Úprava zarovnání textu pro mobilní zařízení podle potřeby */
+        margin: 5px 0; /* Úprava okrajů pro mobilní zařízení podle potřeby */
+    }
 }
