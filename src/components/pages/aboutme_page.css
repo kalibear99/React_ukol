@@ -8,6 +8,10 @@ body {
     background-color: #171717;
 }
 
+.HomePage {
+    display: flex;
+    width: auto;
+}
 
 .aboutme_nadpis { 
     text-align: center;
