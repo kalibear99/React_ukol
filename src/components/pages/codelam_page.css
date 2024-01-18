@@ -54,7 +54,7 @@ body {
     .containerService {
         flex-direction: column;
         height: 100%;
-        gap: 50px;
+        gap: 30px;
 
     }
 }
