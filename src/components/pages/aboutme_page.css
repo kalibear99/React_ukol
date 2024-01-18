@@ -88,6 +88,8 @@ body {
         justify-content: center;
 
     }
-
+    .aboutme_info {
+        padding: 25px;
+    } 
     
 }
