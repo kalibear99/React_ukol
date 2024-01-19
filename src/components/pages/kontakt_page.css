@@ -104,3 +104,12 @@ textarea {
     color: #fff;
   }
   
+  @media only screen and (max-width: 600px) {
+    .titleForm{
+        margin-top: 40%;
+    }
+    
+    .spanForm {
+        margin-top: 40%;
+    }
+  }
