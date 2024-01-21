@@ -26,6 +26,7 @@ S jistotou ale mohu říct že v Reactu budu stále pokračovat a chtěl bych se
 Design mojí stránky jsem si vytvořil ve figme a chtěl jsem svůj web podle něho i vytvořít ale udělal jsem tam nejaké změny
 Homepage jsem úplně změnil ve figme se mi to moc nelibilo tak jsem si to pak poupravil sám.
 Zároveń jsem ještě přidal footer ve figme v návrhu jsem ho neměl.
+Na web jsem přidal reference.
 Struktura byl ale docela dodržena.
 
 ![obrazek](https://github.com/kalibear99/React_ukol/assets/148329667/21d761ff-9dd3-416f-97e3-b23c74f9627a)
