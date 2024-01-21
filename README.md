@@ -27,6 +27,7 @@ Design mojí stránky jsem si vytvořil ve figme a chtěl jsem svůj web podle n
 Homepage jsem úplně změnil ve figme se mi to moc nelibilo tak jsem si to pak poupravil sám.
 Zároveń jsem ještě přidal footer ve figme v návrhu jsem ho neměl.
 Struktura byl ale docela dodržena.
+
 ![obrazek](https://github.com/kalibear99/React_ukol/assets/148329667/21d761ff-9dd3-416f-97e3-b23c74f9627a)
 ![homepage](https://github.com/kalibear99/React_ukol/blob/main/public/homepage.png?raw=true)
 
