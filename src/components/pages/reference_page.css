@@ -34,4 +34,8 @@
         font-size: 30px;
     }
     
+    .loga {
+        flex-direction: column;
+        margin: 50px;
+    }
 }
