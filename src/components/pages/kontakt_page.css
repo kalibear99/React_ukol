@@ -12,10 +12,10 @@ body {
     background-color: #171717;
 }
 
-.titleForm{
+.titleForm {
     color: #fff;
     text-align: center;
-    font-size: 25px;
+    font-size: 3vw;
     font-family: 'DM Sans', sans-serif; 
     margin-top: 200px;
    margin-bottom: 30px;
@@ -105,5 +105,5 @@ textarea {
   }
   
   @media only screen and (max-width: 600px) {
-  
+   
   }
