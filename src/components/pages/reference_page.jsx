@@ -10,7 +10,9 @@ export default function Reference() {
                 transition={{duration: 0.5}}
                 viewport={{once: false}}
                 >
-                    <h1 class="titleReference">Pracoval <span className="spanReference">jsem</span> například pro</h1>
+                <div className="titleReference">
+                    <h1>Pracoval <span className="spanReference">jsem</span> například pro</h1>
+                </div>
                 </motion.div>
 
                 <motion.div
