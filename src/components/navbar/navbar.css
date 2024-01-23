@@ -83,3 +83,20 @@
     font-family: 'DM Sans', sans-serif;
   }
   
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .right {
+      flex-direction: column;
+      margin-top: 15px;
+    }
+  
+    .right a {
+      margin: 10px 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
