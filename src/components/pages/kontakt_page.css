@@ -104,8 +104,3 @@ textarea {
     color: #fff;
   }
   
-  @media only screen and (max-width: 1200px) {
-    .titleForm {
-        font-size: 7vw;
-    }
-  }
