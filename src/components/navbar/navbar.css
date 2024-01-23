@@ -15,10 +15,10 @@
   background-color: #171717;
   padding: 20px;
   color: white;
-  animation: slideIn 0.5s ease-out; /* Add animation property */
+  animation: slideIn 0.5s ease-out; 
 }
 
-/* Rest of your existing CSS code */
+
 
   
   .divider {
