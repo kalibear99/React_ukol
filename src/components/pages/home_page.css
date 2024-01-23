@@ -190,9 +190,13 @@ body {
     }
   
     .obrazek_muz {
-      width: 350px;
-      height: 350px;
+      width: 400px;
+      height: 400px;
       margin-top: 50px;
+    }
+
+    .HomePage {
+      margin-top: 30px;
     }
   }
   
