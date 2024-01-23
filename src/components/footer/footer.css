@@ -36,6 +36,12 @@
     width: 17px;
     height: 17px;
     margin: 0%;
+    display: flex;
+    color: #27AE60;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    gap: 10px;
+
 }
 
 .TitleSocial, .TitleKontakt {
